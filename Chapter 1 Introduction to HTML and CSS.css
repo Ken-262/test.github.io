@@ -1,0 +1,72 @@
+body {
+    background-image: url(Beige\ Bg.jpg);
+    line-height: 1.5;
+    margin: 0px;
+}
+/*this one is applied to the whole structure of the webpage. I also used an image from google
+to make it the whole coverpage of the website.
+Line-height is used to determine the spaces between the texts.
+Margin is used to fix the position of a text or an image from left to right or down to up,*/
+
+
+h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 5px pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*this one if for the heading 1 or the title of the webpage.
+Color is used to make the texts have a color.
+Text-align is used on where would the texts be aligned if its center, left or right.
+Text-shadow is used to have like a glowy effect behind the texts.
+Font-family is used to apply a font in the whole structure of a webpage.*/
+
+h2 {
+    color: black;
+    text-align: left;
+    text-shadow: 2px 2px 5px pink; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+}
+/*this one is for the subheading.*/
+
+li {
+    text-align: left;
+    font-size: 16px;
+    font-family: cursive;
+}
+/*this one is for the list items inside the unordered list and ordered lists.
+Font-size is used to fix the sizes of the texts in how big or small it is.*/
+
+
+img {
+    height: 400px;
+    width: 400px;
+}
+/*this one is for fixing the dimensions of an image.*/
+
+
+p {
+    color: black;
+    text-align:left;
+    margin: 10px;
+    font-family: cursive;
+}
+/*this one is for fixing the paragraph tag, basically the description of the webpage.*/
+
+.button {
+    background-color: #ffffff;
+    color: black;
+    padding: 12px;
+    text-decoration: underline;
+    font-family: cursive;
+    font-weight: lighter;
+    display: inline-block;
+    border-radius: 10px;
+}
+/*this one is for fixing the button that is called in the html.
+Padding is used like a background or the gap between an element.
+Text-decoration is used if you want your texts to have an effect.
+Font-weight is used to make the text look more thick or thin.
+Display is used to show on where the element is placed in the webpage.
+Coming from its name, border-radius. It is used to make the sides of padding or any css used to appear round instead of sharp.*/
